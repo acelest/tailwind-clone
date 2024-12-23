@@ -1,5 +1,15 @@
 <template>
   <div>
+    <div class="fixed top-10 right-5 z-50">
+      <span class="relative flex h-3 w-3">
+        <!-- <span
+          class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"
+        ></span> -->
+        <span
+          class="inline-flex rounded-full h-5 w-5 absolute bg-green-500 right-2 top-2"
+        ></span>
+      </span>
+    </div>
     <div
       class="h-[1px] w-full bg-gradient-to-r from-transparent via-gray-200/10 to-transparent"
     ></div>
